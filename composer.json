@@ -1,0 +1,33 @@
+{
+    "name": "yiizh/yii2-swoole-camera",
+    "description": "The web camera with Yii2 and swoole.",
+    "type": "project",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": ">=2.0.5",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiizh/yii2-fontawesome": "*",
+        "vlucas/phpdotenv": "*",
+        "ext-swoole": ">=1.8"
+    },
+    "require-dev": {
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-debug": "*"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
